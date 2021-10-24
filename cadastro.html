@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Cadastro</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body style="margin:0px;">
+    <table style="width:100%; border-collapse:collapse; font:14px Arial,sans-serif;">
+        <tr>
+            <td style="padding:20px; background-color:#f2f2f2; height: 760px; vertical-align:top;">
+                <p style="margin-left: 450px;">Cadastro Cliente</p>
+                <div class="cadastro">
+                    <form>
+                        <fieldset>
+                            <legend>Nome</legend>            
+                            <label>Primeiro nome: <input type="text" name="firstname"></label>            
+                            <label>Último nome: <input type="text" name="lastname"></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Sexo</legend>            
+                            <label><input type="radio" name="sexo" value="masculino"> Masculino</label>            
+                            <label><input type="radio" name="sexo" value="feminino"> Feminino </label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Contatos</legend>            
+                            <label>E-Mail: <input type="text" name="firstname"></label>            
+                            <label>Telefone Residêncial: <input type="text" name="telres"></label>
+                            <label>Telefone Celular: <input type="text" name="telcel"></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Senha</legend>
+                            <label>Definir Senha: <input type="password" name="senha"></label>
+                            <label>Repetir Senha: <input type="password" name="rsenha"></label>
+                        </fieldset>
+                        <fieldset style="text-align:center;border:none;">
+                            <input class="enviar" type="submit" value="Enviar">
+                        </fieldset>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

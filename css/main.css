@@ -1,0 +1,93 @@
+body {
+    background-color: lightgray;
+    font-family: arial;
+}
+.containerform {
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: 35em;
+    position: relative 
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    width: 30%;
+    margin:auto;
+    text-align: left;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+.cadastro {
+    width: 730px;
+    margin: 50px 0 0 150px;
+    height: 500px;
+}
+
+table {
+    position: absolute;
+    margin: auto;
+    padding: 10px;
+    height: 100px;
+}
+table td {
+    padding-bottom: 20px;
+}
+
+.enviar {
+    width: 120px;
+}
